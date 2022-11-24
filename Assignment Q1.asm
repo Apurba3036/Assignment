@@ -10,11 +10,11 @@
 
     
 
-     MOV AH, 2                    ; display the character stored in BL   
+     MOV AH, 2                    ; display the character stored in BL
      MOV DL, BL
      INT 21H
 
-     MOV AH, 4CH                 ; exit
+     MOV AH, 4CH                 
      INT 21H
 
    MAIN ENDP
