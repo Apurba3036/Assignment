@@ -14,7 +14,7 @@
      MOV DL, BL
      INT 21H
 
-     MOV AH, 4CH                  ; return control to DOS
+     MOV AH, 4CH                 
      INT 21H
 
    MAIN ENDP
