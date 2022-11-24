@@ -14,7 +14,7 @@
      MOV DL, BL
      INT 21H
 
-     MOV AH, 4CH                 
+     MOV AH, 4CH                 ; exit
      INT 21H
 
    MAIN ENDP
